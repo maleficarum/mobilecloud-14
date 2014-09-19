@@ -5,7 +5,7 @@
     <ignored path="Asgn2-VideoLike.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/fragment.java" changelist="59c29a73-e208-4a16-925e-b29c2c75c39b" time="1411108486146" ignored="false" />
-    <file path="/MyController.groovy" changelist="59c29a73-e208-4a16-925e-b29c2c75c39b" time="1411108598447" ignored="false" />
+    <file path="/MyController.groovy" changelist="59c29a73-e208-4a16-925e-b29c2c75c39b" time="1411110226301" ignored="false" />
     <file path="/ClientAndUserDetailsService.groovy" changelist="59c29a73-e208-4a16-925e-b29c2c75c39b" time="1411108976697" ignored="false" />
     <file path="/OAuth2SecurityConfiguration.java" changelist="59c29a73-e208-4a16-925e-b29c2c75c39b" time="1411109012335" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -71,9 +71,9 @@
       <file leaf-file-name="MyController.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/MyController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="21" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0">
+            <state line="27" column="29" selection-start="863" selection-end="863" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#38#86#0" expanded="true" />
+                <element signature="e#38#90#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -82,7 +82,16 @@
       <file leaf-file-name="AutoGradingTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/org/magnum/mobilecloud/integration/test/AutoGradingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="199" selection-start="1482" selection-end="1482" vertical-scroll-proportion="0.6617647">
+            <state line="88" column="36" selection-start="3049" selection-end="3069" vertical-scroll-proportion="0.53342247">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VideoSvcApi.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/client/VideoSvcApi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="158" column="17" selection-start="8131" selection-end="8131" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -147,8 +156,8 @@
         <option value="$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/auth/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/auth/OAuth2SecurityConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/MyController.groovy" />
         <option value="$PROJECT_DIR$/src/test/java/org/magnum/mobilecloud/integration/test/VideoSvcClientApiTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/MyController.groovy" />
       </list>
     </option>
   </component>
@@ -421,7 +430,7 @@
     <property name="dynamic.classpath" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
-  <component name="RunManager" selected="Application.Application">
+  <component name="RunManager" selected="JUnit.AutoGradingTest.testAddVideoMetadata">
     <configuration default="false" name="Application" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" runner="idea">
         <pattern>
@@ -440,6 +449,62 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="Asgn2-VideoLike" />
       <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="AutoGradingTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.magnum.mobilecloud.integration.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Asgn2-VideoLike" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.magnum.mobilecloud.integration.test" />
+      <option name="MAIN_CLASS_NAME" value="org.magnum.mobilecloud.integration.test.AutoGradingTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="AutoGradingTest.testAddVideoMetadata" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="org.magnum.mobilecloud.integration.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Asgn2-VideoLike" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.magnum.mobilecloud.integration.test" />
+      <option name="MAIN_CLASS_NAME" value="org.magnum.mobilecloud.integration.test.AutoGradingTest" />
+      <option name="METHOD_NAME" value="testAddVideoMetadata" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
@@ -529,12 +594,16 @@
       <patterns />
       <method />
     </configuration>
-    <list size="1">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.Application" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.AutoGradingTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.AutoGradingTest.testAddVideoMetadata" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.Application" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.AutoGradingTest.testAddVideoMetadata" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Application" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.AutoGradingTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -714,15 +783,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/MyController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="21" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#38#86#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/org/magnum/mobilecloud/integration/test/VideoSvcClientApiTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="144" column="1" selection-start="5221" selection-end="5221" vertical-scroll-proportion="1.6216577">
@@ -732,9 +792,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/client/VideoSvcApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="158" column="17" selection-start="8131" selection-end="8131" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/magnum/mobilecloud/video/MyController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="29" selection-start="863" selection-end="863" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#38#90#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/org/magnum/mobilecloud/integration/test/AutoGradingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="199" selection-start="1482" selection-end="1482" vertical-scroll-proportion="0.6617647">
+        <state line="88" column="36" selection-start="3049" selection-end="3069" vertical-scroll-proportion="0.53342247">
           <folding />
         </state>
       </provider>
